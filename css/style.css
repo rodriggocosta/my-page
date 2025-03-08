@@ -1,0 +1,119 @@
+:root {
+  --primary-color: #222222;
+  --segund-color: #EC9A29;
+  --font: 'Poppins';
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* depois arrumar isso aqui
+aqui existe uma possibilidade de usar
+ate que nao ficou tao ruim--
+html {
+  height: 50%;
+  background: #222222;
+  width: 50%;
+  border: 1px solid white;
+}*/
+
+body {
+  background: var(--primary-color);
+  color: #FFF;
+  border: 1px solid #FFF;
+  height: 100hv;
+  width: 100vw;
+}
+
+h1,
+h3 {
+  text-align: center;
+  color: #FFF;
+  font-family: 'Poppins';
+}
+
+.main {
+  padding: 5px;
+  display: flex;
+}
+
+.galery {
+  border: 1px solid #FFF;
+  width: 50%;
+}
+
+.test {
+  width: 50%;
+  border: 1px solid red;
+  color: #FFF;
+}
+
+.test form {
+  border: 1px solid #FFF;
+  margin-top: 300px;
+  padding: 10px;
+  font-family: var(--font);
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /*align-items: center;*/
+  justify-items: center;
+  align-content: center;
+}
+
+form input {
+  margin: 10px;
+  padding: 5px;
+  font: var(--font);
+  font-weight: 600;
+  width: 250px;
+}
+
+form .btn {
+  display: flex;
+}
+
+form .btn button {
+  padding: 5px;
+  font-family: var(--font);
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+form .btn .bt-test button {
+  width: 108px;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+form .reset_password {
+  color: #FFF;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+form .reset_password:hover {
+  color: red;
+  /*mudar essa cor, para um cinza mais suave*/
+}
+
+/*arrumar depois, ele so ta aqui pra eu fazer teste, depois tenho que apagar*/
+section {
+  border: 1px solid #FFF;
+  height: 50%;
+  width: 50%;
+  margin-left: 200px;
+  padding: 20px;
+}
